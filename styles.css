@@ -1,5 +1,9 @@
 /* BODY */
 
+body{
+  margin: 0;
+}
+
 /* Navigation Bar  [sample navBar - to be changed] */
 nav {
     position: fixed;
@@ -39,7 +43,6 @@ nav {
 /* First Section */
 .first-section {
   background-color: #F3F7FF; 
-  border-radius: 20px;
   padding: 20px; 
 }
 
