@@ -1,8 +1,14 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+
 /* BODY */
 
 body{
   margin: 0;
+  font-family: 'Poppins', sans-serif;
 }
+
+
 
 /* Navigation Bar  [sample navBar - to be changed] */
 nav {
