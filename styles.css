@@ -2,6 +2,11 @@
 
 /* Navigation Bar  [sample navBar - to be changed] */
 nav {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    color: #fff;
     background-color: #454E6F;
     overflow: hidden;
   }
