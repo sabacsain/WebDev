@@ -285,39 +285,40 @@ nav {
 
 /* HOMEPAGE - END*/
 
-/* Definition Section */
+/* Definition Section - START*/
 
-.definition-section{
-  background: #EEF1F6;
-}
-.definition-section :left{
-  display: flex;
-  justify-content: center;
-  height: 260px;
-  color: #1E2023;
-}
-.definition-section h2{
-  color: #1E2023;
-  font-weight: 600;
-  font-size: 24px;
-  line-height: 36px;
-  margin-top: 100px;
-  margin-left: 10%;
-}
-.left p{
-  margin-left: 10%;
-}
-.right img{
-  height: 300px;
-    width: 415x;
-    border-radius: 12px;
-    position: absolute;
-    top: 0;
-    right: 0;
-    margin-top: 4%;
-    margin-right: 10%;
-}
+  .definition-section{
+    background: #EEF1F6;
+  }
+  .definition-section :left{
+    display: flex;
+    justify-content: center;
+    height: 260px;
+    color: #1E2023;
+  }
+  .definition-section h2{
+    color: #1E2023;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 36px;
+    margin-top: 100px;
+    margin-left: 10%;
+  }
+  .left p{
+    margin-left: 10%;
+  }
+  .right img{
+    height: 300px;
+      width: 415x;
+      border-radius: 12px;
+      position: absolute;
+      top: 0;
+      right: 0;
+      margin-top: 4%;
+      margin-right: 10%;
+  }
 
+/* Definition Section - END*/
 
 /* Types of Online Fraud  - START*/
   .type-section{
@@ -328,22 +329,34 @@ nav {
     display: flex;
     justify-content: center;
     background: rgba(96, 100, 108, 0.05);
-    height: 260px;
+    height: 290px;
   }
 
   .types-container-odd .num-container{
     margin-left: 50px;
+    display: flex;
+    justify-content: center;
+    width: 174px;
+    height: 201px;
+    background: #768D9B;
+    border-radius: 0px 0px 10px 10px; 
   }
 
   .types-container-even{
     display: flex;
     justify-content: center;
     background: #EEF1F6;
-    height: 260px;
+    height: 290px;
   }
 
   .types-container-even .num-container{
     margin-right: 50px;
+    display: flex;
+    justify-content: center;
+    width: 174px;
+    height: 201px;
+    background: #768D9B;
+    border-radius: 0px 0px 10px 10px; 
   }
 
   .type-section h2{
@@ -353,7 +366,7 @@ nav {
     line-height: 46px;
     color: #0F2443;
     padding: 100px 0 50px 0;
-    margin-left: 234px;
+    margin: auto;
   }
 
   .type-section h1{
@@ -381,15 +394,6 @@ nav {
     color: #1E2023;
   }
 
-  .num-container{
-    display: flex;
-    justify-content: center;
-    width: 174px;
-    height: 201px;
-    background: #768D9B;
-    border-radius: 0px 0px 10px 10px; 
-  }
-
   .paragraph{
     display: block;
     width: 827px;
@@ -403,36 +407,144 @@ nav {
 
 
 /* What to do -START  */
- .victim{
-  background: #EEF1F6;
-}
-.victim .content{
-  padding: 40px 0;
-}
-.victim .victim-details{
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-}
-.victim-details .h4{
-  font-weight: 600;
-  font-size: 24px;
-  line-height: 36px;
-  color: #0F2443;
+  .victim-section{
+    background: #EEF1F6;
+    height: fit-content;
+    padding: 50px 0;
+  }
 
-}
-.victim-details p{
-font-weight: 500;
-    font-size: 16px;
-    line-height: 24px;
+  .victim-section .advice-container{
+    display: block;
+    margin:auto;
+    width: fit-content;
+  }
+
+  .victim-section .img-container{
+    width: 281px;
+    height: 156px;
+    border-radius: 10px;
+  }
+
+  .victim-section .img-bg{
+    width: 281px;
+    height: 156px;
+    background: white;
+    border-radius: 10px;
+  }
+
+  .victim-section .org-container{
+    display: block;
+    padding-right: 10px;
+  }
+
+  .victim-section .org-box{
+    display: flex;
+    margin-left: 15px;
+    margin-top: 10px;
+  }
+
+  .victim-section .details-box{
+    display: block;
+  }
+
+  .victim-section .box{
+    display: flex;
+    padding-bottom: 50px;
+  }
+
+  .victim-section .instruction{
+    width: 863px;
+    height: fit-content;
+    background: #DBE3E7;
+    border-radius: 0px 10px 0px 0px;
+
+    padding: 15px 0;
+    padding-left: 15px;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 30px;
     text-align: justify;
     color: #35383D;
-}
-.victim .right img{
-  height: 412px;
-  width: 414px;
-  border-radius: 20px;
-}
+  }
 
+  .victim-section .num-container{
+    width: 150px;
+    height: 227px;
+    background: #768D9B;
+    border-radius: 10px 0px 0px 10px;
+    display: flex;
+    justify-content: center;
+  }
+
+  .victim-section h5{
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    color: #012A4A;
+    margin: 10px 0;
+    text-align: center;
+  }
+
+  .victim-section h1{
+    font-weight: 500;
+    font-size: 96px;
+    margin: 0;
+    color: #FDFEFF;
+    height: 227px;
+    width: fit-content;
+    line-height: 227px;
+  }
+
+  .victim-section h2{
+    width: 1038px;
+    font-weight: 600;
+    font-size: 31px;
+    line-height: 46px;
+    color: #0F2443;
+    padding: 100px 0 100px 0;
+    margin:auto;
+  }
+
+  .victim-section a{
+    text-decoration: none;
+  }
+
+  .victim-section h5:hover{
+    color: #EA3F68;
+  }
+
+  #ICC{
+    background: url(/images/victim/Seal_of_the_FBI_Internet_Crime_Complaint_Center.png) no-repeat center;
+    background-size:contain;
+    scale: 0.8; 
+  }
+
+  #FraudOrg{
+    background: url(/images/victim/fraudOrg.PNG) no-repeat center;
+    background-size:contain;  
+  }
+
+  #BB{
+    background: url(/images/victim/BBB.png) no-repeat center;
+    background-size:contain;
+  }
+
+  #DOJ{
+    background: url(/images/victim/DOJ.png) no-repeat center;
+    background-size:contain;
+    scale: 0.8; 
+  }
+
+  #PNP{
+    background: url(/images/victim/anti-cybercrime-group.png) no-repeat center;
+    background-size:contain;
+    scale: 0.8; 
+  }
+
+  #NBI{
+    background: url(/images/victim/nbi.png) no-repeat center;
+    background-size:contain;
+    scale: 0.8; 
+  }
 /* What to do - END */
 
