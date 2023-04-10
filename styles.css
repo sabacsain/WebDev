@@ -374,42 +374,36 @@ nav {
 
 
 /* What to do -START  */
-  .victim{
-    background: #EEF1F6;
-  }
-  .victim .content{
-    padding: 40px 0;
-  }
-  .victim .victim-details{
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-  }
-  .victim-details .topic{
-    width: 50%;
-    font-family: 'Poppins';
-    font-style: normal;
-    font-weight: 600;
-    font-size: 31px;
-    line-height: 46px;
-    color: #0F2443;
+ .victim{
+  background: #EEF1F6;
+}
+.victim .content{
+  padding: 40px 0;
+}
+.victim .victim-details{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.victim-details .h4{
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 36px;
+  color: #0F2443;
 
-
-  }
-  .victim-details p{
-    font-family: 'Poppins';
-  font-style: normal;
-  font-weight: 500;
-  font-size: 16px;
-  line-height: 24px;
-  text-align: justify;
-  color: #35383D;
-  }
-  .victim .right img{
-    height: 412px;
-    width: 414px;
-    border-radius: 20px;
-  }
+}
+.victim-details p{
+font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    text-align: justify;
+    color: #35383D;
+}
+.victim .right img{
+  height: 412px;
+  width: 414px;
+  border-radius: 20px;
+}
 
 /* What to do - END */
 
