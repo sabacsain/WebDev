@@ -290,56 +290,126 @@ nav {
 /* some css */
 
 
-/* Types of Online Fraud  */
+/* Types of Online Fraud  - START*/
+  .type-section{
+    background: #EEF1F6;
+  }
 
-/* some css */
+  .types-container-odd{
+    display: flex;
+    justify-content: center;
+    background: rgba(96, 100, 108, 0.05);
+    height: 260px;
+  }
+
+  .types-container-odd .num-container{
+    margin-left: 50px;
+  }
+
+  .types-container-even{
+    display: flex;
+    justify-content: center;
+    background: #EEF1F6;
+    height: 260px;
+  }
+
+  .types-container-even .num-container{
+    margin-right: 50px;
+  }
+
+  .type-section h2{
+    width: 1051px;
+    font-weight: 600;
+    font-size: 31px;
+    line-height: 46px;
+    color: #0F2443;
+    padding: 100px 0 50px 0;
+    margin-left: 234px;
+  }
+
+  .type-section h1{
+    font-weight: 500;
+    font-size: 96px;
+    margin: 0;
+    color: #FDFEFF;
+    height: 201px;
+    width: fit-content;
+    line-height: 201px;
+  }
+
+  .type-section h4{
+    color: #EA3F68;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 36px;
+  }
+
+  .type-section p{
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    text-align: justify;
+    color: #1E2023;
+  }
+
+  .num-container{
+    display: flex;
+    justify-content: center;
+    width: 174px;
+    height: 201px;
+    background: #768D9B;
+    border-radius: 0px 0px 10px 10px; 
+  }
+
+  .paragraph{
+    display: block;
+    width: 827px;
+  }
+
+/* Types of Online Fraud  - END*/
 
 
 /* How to Protect  */
 /* some css */
 
 
-/* What to do  */
-.victim{
-  background: #EEF1F6;
-}
-.victim .content{
-  padding: 40px 0;
-}
-.victim .victim-details{
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-}
-.victim-details .topic{
-  width: 50%;
-  font-family: 'Poppins';
+/* What to do -START  */
+  .victim{
+    background: #EEF1F6;
+  }
+  .victim .content{
+    padding: 40px 0;
+  }
+  .victim .victim-details{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .victim-details .topic{
+    width: 50%;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 31px;
+    line-height: 46px;
+    color: #0F2443;
+
+
+  }
+  .victim-details p{
+    font-family: 'Poppins';
   font-style: normal;
-  font-weight: 600;
-  font-size: 31px;
-  line-height: 46px;
-  color: #0F2443;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  text-align: justify;
+  color: #35383D;
+  }
+  .victim .right img{
+    height: 412px;
+    width: 414px;
+    border-radius: 20px;
+  }
 
+/* What to do - END */
 
-}
-.victim-details p{
-  font-family: 'Poppins';
-font-style: normal;
-font-weight: 500;
-font-size: 16px;
-line-height: 24px;
-text-align: justify;
-color: #35383D;
-}
-.victim .right img{
-  height: 412px;
-  width: 414px;
-  border-radius: 20px;
-}
-
-/* References  */
-/* some css */
-
-
-/* Footer  */
-/* some css */
