@@ -9,7 +9,7 @@ body{
 }
 
 
-/* NAVIGATION BAR  [sample navBar - to be changed] */
+/* NAVIGATION BAR */
 nav {
     position: fixed;
     top: 0;
@@ -88,7 +88,6 @@ nav {
 
 .footer-section a{
   width: fit-content;
-  text-decoration: none;
   color:#0E2038;
 }
 
