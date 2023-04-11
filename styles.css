@@ -290,7 +290,7 @@ nav {
   .definition-section
 {
   background: #EEF1F6;
- 
+  padding: 60px;
 }
   .definition{
     background: #EEF1F6;
@@ -324,7 +324,7 @@ nav {
   }
   .left{
     display: block;
-    width: 827px;
+    width: 696px;
   }
 
 /* Definition Section - END*/
