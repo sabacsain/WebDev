@@ -287,35 +287,44 @@ nav {
 
 /* Definition Section - START*/
 
-  .definition-section{
+  .definition-section
+{
+  background: #EEF1F6;
+ 
+}
+  .definition{
     background: #EEF1F6;
-  }
-  .definition-section :left{
     display: flex;
     justify-content: center;
-    height: 260px;
-    color: #1E2023;
+    padding: 100px 0 100px 0;
+    height: fit-content;
+
   }
   .definition-section h2{
+    text-align: center;
     color: #1E2023;
     font-weight: 600;
-    font-size: 24px;
-    line-height: 36px;
-    margin-top: 100px;
-    margin-left: 10%;
+    font-size: 39px;
+    line-height: 55px;
   }
-  .left p{
-    margin-left: 10%;
+  .definition-section p{
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    text-align: justify;
+    color: #1E2023;
+    width: 552px;
   }
-  .right img{
-    height: 300px;
-      width: 415x;
-      border-radius: 12px;
-      position: absolute;
-      top: 0;
-      right: 0;
-      margin-top: 4%;
-      margin-right: 10%;
+  .definition-img {
+    background: url(/images/definition/definition-image.PNG) no-repeat center;
+    background-size: contain;
+    width: 500px;
+    height: 276px;
+    margin: auto 20px auto 0;
+  }
+  .left{
+    display: block;
+    width: 827px;
   }
 
 /* Definition Section - END*/
