@@ -706,3 +706,42 @@ nav {
   }
 /* What to do - END */
 
+/* About - START*/
+.about-section{
+  height: fit-content;
+  background:  #EEF1F6;
+  display: flex;
+  justify-content: center;
+  padding: 220px 0 170px 0;
+}
+
+.about-section h2{
+  font-weight: 600;
+  font-size: 39px;
+  line-height: 55px;
+  color: #35383D;
+}
+
+.about-section p{
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  text-align: justify;
+  color: #35383D;
+  width: 552px;
+}
+
+.img-about{
+  background: url(/images/about/about-image.png) no-repeat center;
+  background-size: contain;
+  width: 500px;
+  height: 276px;
+  margin: auto 50px auto 0;
+}
+
+.about-text{
+  display: block;
+  margin-left: 50px;
+}
+
+/* About - END */
