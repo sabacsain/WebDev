@@ -393,6 +393,7 @@ nav {
     color: #0F2443;
     padding: 100px 0 50px 0;
     margin: auto;
+    text-align: center;
   }
 
   .type-section h1{
@@ -443,6 +444,7 @@ nav {
       color: #0F2443;
       padding: 100px 0 100px 0;
       margin:auto;
+      text-align: center;
   }
   .protect-section .card p{
     display: block;
@@ -688,6 +690,7 @@ nav {
     color: #0F2443;
     padding: 100px 0 100px 0;
     margin:auto;
+    text-align: center;
   }
 
   .victim-section a{
