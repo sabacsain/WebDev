@@ -169,10 +169,11 @@ nav {
       font-size: 20px;
       cursor: pointer; 
       box-shadow: none;
+      border: none;
     }
 
     .start-button:hover{
-      transform: scale(1.1);
+      background-color:  #566394;      
     }
 
 
