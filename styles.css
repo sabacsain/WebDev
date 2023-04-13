@@ -86,6 +86,7 @@ nav {
 
   .footer-section p{
     width: fit-content;
+    text-align: justify;
   }
 
   .footer-section a{
