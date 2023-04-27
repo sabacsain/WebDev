@@ -1,0 +1,310 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@500;700;800&display=swap");
+
+body {
+  font-family: Poppins;
+  height: 1000px;
+}
+
+/*----------------------POSITION SECTION--------------*/
+
+/*fixed*/
+.position-section {
+  padding: 20px;
+  height: fit-content;
+  margin-top: 70px;
+  background-color: rgb(250, 250, 250);
+}
+
+.position-section h3 {
+  font-size: 25px;
+  text-align: center;
+}
+
+.fixed-pos {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 60px;
+  background-color: rgb(144, 172, 209);
+  z-index: 100;
+}
+
+.fixed-pos h1,
+p {
+  margin: 0;
+  text-align: center;
+}
+
+.fixed-pos p {
+  color: rgb(33, 68, 70);
+  font-size: 12px;
+}
+
+/*static*/
+
+.static-pos {
+  background-color: lavender;
+  height: fit-content;
+  width: 500px;
+  margin: auto;
+  border-radius: 20px;
+  padding: 20px;
+  position: static;
+  margin-bottom: 20px;
+}
+.static-pos h3 {
+  margin: 0;
+  font-size: 20px;
+}
+.static-pos p {
+  color: rgb(33, 68, 70);
+  font-size: 12px;
+  text-align: left;
+}
+
+.static-box {
+  height: 50px;
+  width: 100;
+  border-radius: 10px;
+  background-color: lightblue;
+  position: static;
+}
+
+/*Relative*/
+.relative-pos {
+  background-color: lavender;
+
+  width: 500px;
+  margin: auto;
+  border-radius: 20px;
+  padding: 20px;
+  margin-bottom: 20px;
+}
+
+.relative-pos h3 {
+  margin: 0;
+  font-size: 20px;
+}
+.relative-pos p {
+  color: rgb(33, 68, 70);
+  font-size: 12px;
+  text-align: left;
+}
+
+.relative-box {
+  height: 50px;
+  width: 100;
+  background-color: lightpink;
+  border-radius: 10px;
+  position: relative;
+}
+
+.relative-box:hover {
+  top: 15px;
+  content-visibility: hidden;
+}
+
+.relative-box p {
+  padding: 15px;
+  font-size: 12px;
+  text-align: center;
+}
+
+/*Absolute*/
+.absolute-pos {
+  background-color: lavender;
+  height: fit-content;
+  width: 500px;
+  margin: auto;
+  border-radius: 20px;
+  padding: 20px;
+}
+.absolute-pos h3 {
+  margin: 0;
+  font-size: 20px;
+}
+
+.absolute-pos p {
+  color: rgb(33, 68, 70);
+  font-size: 12px;
+  text-align: left;
+}
+
+.absolute-parent {
+  height: 100px;
+  background-color: lightsteelblue;
+  padding: 10px;
+  border-radius: 10px;
+  position: relative;
+}
+
+.absolute-child {
+  background-color: white;
+  height: 80px;
+  width: 210px;
+  border-radius: 10px;
+  position: absolute;
+  left: 10px;
+}
+
+.absolute-child:hover {
+  right: 10px;
+  transition: all 1s linear;
+  left: unset;
+  content-visibility: hidden;
+}
+
+.absolute-child p {
+  margin: 15px;
+}
+
+/* ----------------END OF POSITION SECTION --------------------------*/
+
+/* ----------------DISPLAY SECTION --------------------------*/
+.display-section {
+  background-color: white;
+  padding: 20px;
+}
+
+.display-section h3 {
+  font-size: 25px;
+  text-align: center;
+}
+
+.block-level,
+.inline-level {
+  margin: auto;
+  width: 500px;
+}
+
+.block-level h4,
+.inline-level h4 {
+  background: lavender;
+  border-radius: 5px;
+  padding: 5px;
+}
+
+.block-element {
+  background-color: lightblue;
+  margin-bottom: 10px;
+  height: 50px;
+  border-radius: 10px;
+  padding: 10px;
+}
+
+.block h5 {
+  background-color: lavenderblush;
+  width: fit-content;
+  border-radius: 10px;
+  padding: 3px;
+}
+
+.block p {
+  text-align: justify;
+}
+
+.inline p {
+  text-align: left;
+}
+
+.inline h5 {
+  background-color: lavenderblush;
+  width: fit-content;
+  border-radius: 10px;
+  padding: 3px;
+}
+
+.inline span {
+  background-color: lightblue;
+  padding: 4px;
+}
+
+/* ----------------END OF DISPLAY SECTION --------------------------*/
+
+/* ----------------FONT SECTION --------------------------*/
+
+.font-section {
+  background-color: rgb(250, 250, 250);
+  padding: 20px;
+}
+
+.font-section h3 {
+  font-size: 25px;
+  text-align: center;
+}
+
+/* FONT FAMILY */
+
+.font-family {
+  padding: 20px;
+}
+
+.font-section div {
+  margin-bottom: 20px;
+}
+
+.font-section h4 {
+  background-color: lavender;
+  border-radius: 10px;
+  width: 500px;
+  text-align: center;
+  margin: auto;
+  margin-bottom: 10px;
+  padding: 5px;
+  font-size: 20px;
+}
+
+#font1 {
+  font-family: Arial, sans-serif;
+}
+
+#font2 {
+  font-family: Times, serif;
+}
+
+#font3 {
+  font-family: Verdana, sans-serif;
+}
+
+/* FONT SIZE */
+
+#size1 {
+  font-size: 20px;
+}
+
+#size2 {
+  font-size: 10px;
+}
+
+#size3 {
+  font-size: 30px;
+}
+
+/* FONT WEIGHT */
+#weight1 {
+  font-weight: bold;
+}
+
+#weight2 {
+  font-weight: lighter;
+}
+
+#weight3 {
+  font-weight: 800;
+}
+
+/* FONT STYLE */
+#style1 {
+  font-style: normal;
+}
+
+#style2 {
+  font-style: italic;
+}
+
+#style3 {
+  font-style: inherit;
+}
+
+/* ----------------END FONT SECTION --------------------------*/

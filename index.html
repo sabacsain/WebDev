@@ -1,0 +1,161 @@
+<!-- HEADER -->
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS</title>
+    <link rel="stylesheet" type="text/css" href="styles.css">
+  </head>
+  
+
+<!-- BODY -->
+<body>
+
+  <div class="home">
+
+    <!-- POSITION -->
+    <section class="position-section">
+      <h3> POSITIONING</h3>
+      </p>
+      <div class="fixed-pos">
+        <H1>CSS LAYOUT AND TYPOGRAPHY</H1>
+        <p>this div element has POSITION: FIXED. It always stays in the same place even if the page is scrolled.</p>
+      </div>
+     
+      <div class="static-pos">
+        <h3>STATIC</h2>
+        <p>An element with position: static; is not positioned in any special way; it is always positioned according to the normal flow of the page:</p>
+          <div class="static-box"></div>
+          <br>
+          <div class="static-box"></div>
+
+      </div>
+
+      <div class="relative-pos">
+        <h3>RELATIVE</h3>
+        <p>An element with position: relative; is positioned relative to its normal position.</p>
+        <div class="relative-box"><p>Hover to set position 15px from the top, relative to original position</p></div>
+        <br>
+        <div class="relative-box2"></div>
+
+      </div>
+      
+      <div class="absolute-pos">
+        <h3>ABSOLUTE</h3>
+        <p>An element with position: absolute; is positioned relative to the nearest positioned ancestor (instead of positioned relative to the viewport, like fixed).</p>
+        <div class="absolute-parent">
+          <p>parent</p>
+          <div class="absolute-child">
+            <p>Hover to set absolute position 10px to the right of the parent div</p>
+          </div>
+        </div>
+      </div>
+      
+      
+    </section>
+
+    <!-- DISPLAY -->
+    <section class="display-section">
+      <h3>DISPLAY</h3>
+
+      <div class="block-level">
+        <h4>Block-Level Elements</h4>
+
+        <div class="block">
+          <p>
+            The following are sample block elements using <br> 'display-property:
+            block':
+          </p>
+
+          <h5>Sample 'div' Block</h5>
+          <div class="block-element">BLOCK 1</div>
+          <div class="block-element">BLOCK 2</div>
+
+          <h5>Sample 'paragraph' Block</h5>
+          <p>
+            There are many paths leading to One. These herbs carry within
+            their fragile essence a secret of Life, Universe, Creation, and
+            the secrets of Enlightenment. We all carry the Truth within, and
+            every drop of water, every flower, every man intuitively knows it,
+            no matter what the path we choose to follow is.
+          </p>
+          <br>
+          <p>
+            Lorem ipsum dolor sit amet. Ut dolores illo ut dolorum Quis ut
+            omnis alias sit quaerat odit. Ut incidunt tempora sed quam quia ut
+            sapiente eligendi. Quo ipsum recusandae hic voluptas blanditiis ex
+            eius neque non quibusdam dolorem ut voluptatem quibusdam hic
+            veniam voluptatibus qui molestiae voluptates! Et repellat veniam
+            At voluptas ipsum et officia ratione id sapiente ipsam!
+          </p>
+        </div>
+      </div>
+
+      <div class="inline-level">
+        <h4>In-Line Level Elements</h4>
+
+        <div class="inline">
+          <p>
+            The following are sample in-line elements using <br>'display-property:
+            in-line':
+          </p>
+
+          <h5>Sample 'span' In-line</h5>
+          <span class="inline-element">IN-LINE 1</span>
+          <span class="inline-element">IN-LINE 2</span>
+          <span class="inline-element">IN-LINE 3</span>
+
+          <h5>Sample 'link' In-line</h5>
+          <a class="inline-element" href="#">IN-LINE 1</a>
+          <a class="inline-element" href="#">IN-LINE 2</a>
+          <a class="inline-element" href="#">IN-LINE 3</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- FONT -->
+    <section class="font-section">
+      <h3>FONT</h3>
+      
+      <div class="font-family">
+        <h4>Font Family</h4>
+          <p id="font1">This font is Arial</p>
+          <p id="font2">This font is Times New Roman</p>
+          <p id="font3">This font is Verdana</p>
+      </div>
+
+      <div class="font-size">
+        <h4>Font Size</h4>
+        <p id="size2">This is size 10px</p>
+          <p id="size1">This is size 20px</p>
+          <p id="size3">This is size 30px</p>
+      </div>
+
+      <div class="font-weight">
+        <h4>Font Weight</h4>
+          <p id="weight1">This font weight is bold</p>
+          <p id="weight2">This font weight is lighter</p>
+          <p id="weight3">This font weight is bolder</p>
+      </div>
+
+      <div class="font-style">
+        <h4>Font Style</h4>
+          <p id="style1">This font style is normal</p>
+          <p id="style2">This font style is italic</p>
+          <p id="style3">This font style is inherit</p>
+      </div>
+    </section>
+
+  </div>
+
+
+  
+</body>
+
+
+
+
+</html>
