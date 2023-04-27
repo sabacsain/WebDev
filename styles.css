@@ -308,3 +308,254 @@ p {
 }
 
 /* ----------------END FONT SECTION --------------------------*/
+
+/*----------------------FLEXBOX SECTION--------------*/
+.flexbox h1{
+    text-align: center;
+    background:#E74646;
+    color: #FFF3E2;
+    margin: 0;
+    font-size: 4ch;
+}
+
+.flexbox .flex-container{
+    display: block;
+    background: #FFE5CA;
+    width: 700px;
+    margin: auto;
+    padding: 20px;
+    border-radius: 5%;
+    margin-top: 40px;
+}
+
+.flexbox .container1 div{
+    background: #FA9884;
+    width: fit-content;
+    height: fit-content;
+    padding: 10px;
+    color: #FFF3E2;
+    font-weight: bold;
+    margin: 5px;
+}
+
+.flexbox h2{
+    margin-top: 0;
+}
+
+.flexbox .container1{
+    background: #E74646;
+    padding: 10px 0;
+    display: flex;
+    justify-content: space-around;
+}
+
+.flexbox h5{
+    margin: 5px 0;
+    margin-bottom: 30px;
+}
+
+.flexbox .container2 div{
+    background: #FA9884;
+    width: fit-content;
+    height: fit-content;
+    padding: 10px;
+    color: #FFF3E2;
+    font-weight: bold;
+    margin: 5px;
+}
+
+.flexbox .container2{
+    background: #E74646;
+    padding: 10px 0;
+    display: flex;
+    flex-direction: column;   
+}
+
+.flexbox .container3 div{
+    background: #FA9884;
+    width: fit-content;
+    height: fit-content;
+    padding: 10px;
+    color: #FFF3E2;
+    font-weight: bold;
+    margin: 5px;
+}
+
+.flexbox .container3{
+    background: #E74646;
+    padding: 10px 0;
+    display: flex;
+    flex-wrap: wrap;  
+}
+
+.flexbox .container4 div{
+    background: #FA9884;
+    width: fit-content;
+    height: fit-content;
+    padding: 10px;
+    color: #FFF3E2;
+    font-weight: bold;
+    margin: 5px;
+}
+
+.flexbox .container4{
+    background: #E74646;
+    padding: 10px 0;
+    display: flex;
+    align-items: flex-start;
+    height: 200px;
+}
+
+.flexbox .flex-items{
+    display: block;
+    background: #FFE5CA;
+    width: 700px;
+    margin: auto;
+    padding: 20px;
+    border-radius: 5%;
+    margin-top: 40px;
+}
+
+.flex-items .container1 div{
+    background: #FA9884;
+    width: fit-content;
+    height: fit-content;
+    padding: 10px;
+    color: #FFF3E2;
+    font-weight: bold;
+    margin: 5px;
+}
+
+.flex-items .container1{
+    background: #E74646;
+    padding: 10px 0;
+    display: flex;
+}
+
+.flexbox .flex-property{
+    display: block;
+    background: #FFE5CA;
+    width: 700px;
+    margin: auto;
+    padding: 20px;
+    border-radius: 5%;
+    margin-top: 40px;
+}
+
+
+.flex-property .container1 div{
+    background: #FA9884;
+    width: fit-content;
+    height: fit-content;
+    padding: 10px;
+    color: #FFF3E2;
+    font-weight: bold;
+    margin: 5px;
+}
+
+.flex-property .container1{
+    background: #E74646;
+    padding: 10px 0;
+    display: flex;
+    -ms-flex: 1;
+    flex: 1;
+}
+/* ----------------END FLEXBOX SECTION --------------------------*/
+
+
+/*----------------------GRID SECTION--------------*/
+.grid h1{
+    text-align: center;
+    background:#2A2F4F;
+    color: #FDE2F3;
+    margin: 0;
+    font-size: 4ch;
+    margin-top: 40px;
+}
+
+.grid-container{
+    display: block;
+    background: #FDE2F3;
+    width: 700px;
+    margin: auto;
+    padding: 20px;
+    border-radius: 5%;
+    margin-top: 40px;
+}
+
+.grid-container .container1 div{
+    background: #917FB3;
+    width: fit-content;
+    height: fit-content;
+    padding: 10px;
+    color: #FDE2F3;
+    font-weight: bold;
+    margin: 5px;
+}
+
+.grid-container .container1{
+    background: #2A2F4F;
+    padding: 10px 0;
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    justify-content: space-evenly;
+}
+
+.grid-item{
+    display: block;
+    background: #FDE2F3;
+    width: 700px;
+    margin: auto;
+    padding: 20px;
+    border-radius: 5%;
+    margin-top: 40px;
+}
+
+
+.grid-item .container1 div{
+    background: #917FB3;
+    padding: 10px;
+    color: #FDE2F3;
+    font-weight: bold;
+    margin: 5px;
+}
+
+.grid-item .container1{
+    background: #2A2F4F;
+    padding: 10px 0;
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+}
+
+.grid-item .item1{
+    grid-column: 1 / span 3;
+}
+
+
+.grid-property{
+    display: block;
+    background: #FDE2F3;
+    width: 700px;
+    margin: auto;
+    padding: 20px;
+    border-radius: 5%;
+    margin-top: 40px;
+}
+
+
+.grid-property .container1 div{
+    background: #917FB3;
+    padding: 10px;
+    color: #FDE2F3;
+    font-weight: bold;
+    margin: 5px;
+}
+
+.grid-property .container1{
+    background: #2A2F4F;
+    padding: 10px 0;
+    display: grid;
+    grid: 150px / auto auto auto;
+}
+
+/* ----------------END GRID SECTION --------------------------*/
